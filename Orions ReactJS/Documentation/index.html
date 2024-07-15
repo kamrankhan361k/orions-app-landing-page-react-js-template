@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Orions React Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="GFX Partner">
+
+  <!-- Le styles -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      padding-left: 220px;
+      padding-bottom: 40px;
+    }
+
+    .preview {
+      width: 800px;
+    }
+
+    .navbar-fixed-top {
+      width: 200px;
+      height: 100%;
+      right: auto;
+      background: #131314;
+    }
+
+    .navbar-inner {
+      background: none;
+      padding: 30px !important;
+    }
+
+    .navbar-fixed-top .container {
+      width: 100%;
+    }
+
+    .navbar .brand {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+
+    .navbar .brand img {
+      height: 30px;
+    }
+
+    .navbar .nav {
+      width: 100%;
+      float: left;
+      margin: 0;
+    }
+
+    .navbar .nav li {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 34px !important;
+    }
+  </style>
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" id="top">
+
+  <!-- Documentation Navbar -->
+
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span
+            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand"
+          href="#">Orions</a> <!-- TIP: Change this for the name of your file -->
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="#top" class="active">Home</a></li>
+            <li><a href="#install">Installation</a></li>
+            <li><a href="#markup">Markup</a></li>
+            <li><a href="#plugins">Plugins</a></li>
+            <li><a href="#psd">Photoshop</a></li>
+            <li><a href="#credits">Credits</a></li>
+            <li><a href="https://themeforest.net/user/gfxpartner">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Navbar -->
+
+  <!-- Main Container Beginning -->
+
+  <div class="container">
+    <div class="masthead">
+      <h1>Orions – App Landing Page React Template</h1>
+      <br>
+      <p class="marketing-byline">Made with &hearts; by <a href="https://themeforest.net/user/gfxpartner">GFXPARTNER</a>
+      </p>
+      <div style="width:100%; float:left; text-align:center; margin:30px 0;"><img src="assets/img/preview.jpg"
+          alt="Image" class="preview"></div>
+
+      <p>Orions is a premium, fully responsive & multipurpose React software app landing page template suitable for any kind of mobile apps, startup apps, one page websites for varied kind of businesses.
+      </p>
+    </div>
+    <!-- masthead -->
+
+    <div id="intro">
+      <p class="highlight hero-unit">Thank you for purchasing our template. If you have any questions that are beyond
+        the scope of this help file, please feel free to email via our user page contact form <a
+          href="https://themeforest.net/user/gfxpartner">here</a>. Thanks so much!</p>
+    </div>
+    <!-- intro -->
+
+    <section id="install">
+      <div class="page-header">
+        <h1>Installation <small>Everything you need to setup your react app quickly.</small></h1>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <h3>Step 1</h3>
+          <p>Installing Node and NPM</p>
+        </div>
+        <div class="span9">
+          <p>
+            You need to make sure that Node and NPM are installed on your system. If they are not installed then you can download them <a href="https://nodejs.org/en/">here</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <h3>Step 2</h3>
+          <p>Installing node modules</p>
+        </div>
+        <div class="span9">
+          <p>
+            To install the node modules that the template is depended on, you need to open the command line terminal in the folder <b>orions-react-demo-1</b>, <b>orions-react-demo-2</b> or <b>orions-react-demo-3</b> and type the following command. This may take some time.
+            <pre class="prettyprint linenums">
+npm install</pre>
+            Note: 'npm' command should be in the PATH environment variable to be accessible.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <h3>Step 3</h3>
+          <p>Starting React App</p>
+        </div>
+        <div class="span9">
+          <p>
+            To start the app, your current working directory should be same as in the previous step. You need to enter the following command in the command line terminal. After a few seconds, your react app will open in the default browser.
+            <pre class="prettyprint linenums">
+npm run start</pre>
+            Note: 'npm' command should be in the PATH environment variable to be accessible.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span3">
+          <h3>Step 4</h3>
+          <p>Deploying React App</p>
+        </div>
+        <div class="span9">
+          <p>
+            To deploy the app, your current working directory should be same as in the previous step. You need to enter the following command in the command line terminal. After a few seconds, a folder named 'build' will appear in present working directory, which you can upload to your hosting server, and in four simple steps, your react app is visible to the world.
+            <pre class="prettyprint linenums">
+npm run build</pre>
+            Note: 'npm' command should be in the PATH environment variable to be accessible.
+          </p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="markup">
+      <div class="page-header">
+        <h1>Markup <small>Markup customization and highlights</small></h1>
+      </div>
+      <ul>
+        <li>Animated Preloader Section</li>
+        <li>Premium Creative Design</li>
+        <li>Fully Responsive</li>
+        <li>Soft Page Transition</li>
+        <li>Amazing Hamburger Menu</li>
+        <li>Valid HTML5 - CSS3 files</li>
+        <li>Based on Bootstrap 5.x</li>
+        <li>Amazing Fullscreen Navigation</li>
+        <li>Flowless CSS transition</li>
+        <li>Cross browsers support</li>
+        <li>Retina ready</li>
+        <li>Parallax backgrounds</li>
+        <li>Google fonts</li>
+        <li>Free quick support</li>
+      </ul>
+      <hr />
+      <div class="row">
+        <div class="span3">
+          <h3>General Markup</h3>
+          <p> The general template structure is the same throughout the template. Here is the general structure.</p>
+        </div>
+        <div class="span9">
+          <pre class="prettyprint linenums">
+&lt;Preloader/&gt;
+&lt;CustomScrollbar/&gt;
+&lt;div className="main-wrapper"&gt;
+    {/* header - start */}
+    &lt;Header type={ useLocation().pathname !== '/' ? 'navigation-1' : '' } /&gt;
+    {/* header - end */}
+    &lt;Routes&gt;
+        &lt;Route path="/" element={&lt;Index/&gt;} /&gt;
+        &lt;Route path="/about" element={&lt;About/&gt;} /&gt;
+        &lt;Route path="/blog-1" element={&lt;Blog1/&gt;} /&gt;
+        &lt;Route path="/blog-2" element={&lt;Blog2/&gt;} /&gt;
+        &lt;Route path="/blog-detail-1" element={&lt;BlogDetail1/&gt;} /&gt;
+        &lt;Route path="/blog-detail-2" element={&lt;BlogDetail2/&gt;} /&gt;
+        &lt;Route path="/contact" element={&lt;Contact/&gt;} /&gt;
+        &lt;Route path="/feature-detail-1" element={&lt;FeatureDetail1/&gt;} /&gt;
+        &lt;Route path="/feature-detail-2" element={&lt;FeatureDetail2/&gt;} /&gt;
+        &lt;Route path="/features-1" element={&lt;Features1/&gt;} /&gt;
+        &lt;Route path="/features-2" element={&lt;Features2/&gt;} /&gt;
+        &lt;Route path="/pricing" element={&lt;Pricing/&gt;} /&gt;
+        &lt;Route path="/privacy-policy" element={&lt;PrivacyPolicy/&gt;} /&gt;
+    &lt;/Routes&gt;
+    {/* footer - start */}
+    &lt;Footer/&gt;
+    {/* footer - end */}
+&lt;/div&gt;
+</pre>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- Markup -->
+
+    <section id="plugins">
+      <div class="row">
+        <div class="span3">
+          <h3>Dependencies</h3>
+          <p>List of plugins used in the React Template</p>
+        </div>
+        <div class="span9">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Dependencies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>gasp</code></td>
+              </tr>
+              <tr>
+                <td><code>bootstrap</code></td>
+              </tr>
+              <tr>
+                <td><code>font-awesome</code></td>
+              </tr>
+              <tr>
+                <td><code>line-awesome</code></td>
+              </tr>
+              <tr>
+                <td><code>glightbox</code></td>
+              </tr>
+              <tr>
+                <td><code>overlay-scrollbars</code></td>
+              </tr>
+              <tr>
+                <td><code>swiper-bundle</code></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <section id="psd">
+      <div class="page-header">
+        <h1>Photoshop Files <small>Photoshop customization and highlights</small></h1>
+      </div>
+      <p>There is no included psd file with this item but you can purchase it separately by
+        clicking <a href="https://themeforest.net/item/orions-responsive-app-landing-page-html-template/33544403">here</a>.</p>
+    </section>
+    <!-- Photoshop -->
+
+    <section id="credits">
+      <div class="page-header">
+        <h1>Credits Files <small>Some of your credits and sources</small></h1>
+      </div>
+      <p>I've used the following images, icons or other files as listed.</p>
+      <h3>Images</h3>
+      <ol>
+        <li><a href="http://www.www.istockphoto.com">http://www.istockphoto.com/</a> <small>&mdash; Some of images we
+            used from here </small></li>
+        <li><a href="http://www.shutterstock.com/">http://www.shutterstock.com/</a> <small>&mdash; Some of images we
+            used from here </small></li>
+        <li><a href="https://www.pexels.com/">https://www.pexels.com/</a> <small>&mdash; Some of images we
+          used from here </small></li>
+      </ol>
+    </section>
+    <!-- Credits -->
+
+    <hr />
+    <div class="goodbye">
+      <p>Once again, thanks for purchasing this template and if you have any questions relating to this theme. No
+        guarantees, but we'll do our best to assist. If you have a more general question relating to the themes on
+        ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.
+      </p>
+    </div>
+    <hr />
+    <footer>
+      <p>&copy; 2022 - GFXPARTNER</p>
+    </footer>
+  </div>
+  <!-- /container -->
+
+  <!-- Le javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/google-code-prettify/prettify.js"></script>
+  <script src="assets/js/bootstrap-transition.js"></script>
+  <script src="assets/js/bootstrap-alert.js"></script>
+  <script src="assets/js/bootstrap-modal.js"></script>
+  <script src="assets/js/bootstrap-dropdown.js"></script>
+  <script src="assets/js/bootstrap-scrollspy.js"></script>
+  <script src="assets/js/bootstrap-tab.js"></script>
+  <script src="assets/js/bootstrap-tooltip.js"></script>
+  <script src="assets/js/bootstrap-popover.js"></script>
+  <script src="assets/js/bootstrap-button.js"></script>
+  <script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+
+</html>
